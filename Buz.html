@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+          *{
+            font-family: 'Poppins', sans-serif;
+          }
+          html {
+            scroll-behavior: smooth;
+        }
+        .sosyal{
+            width: 50px;
+            height: 50px;
+        }
+        .carouselboy{
+            height: 700px;
+            background-size: cover;
+        }
+        .icerik{
+            width: 100%;
+            text-align: center;
+            padding: 40px 0px;
+            background: url("Winter-Night-wallpaper-HD.png");
+            background-size: cover;
+        }
+        .icerik h1{
+            font-size: 40px;
+            margin-bottom:50px;
+        }
+        .hizmetler{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 70px;
+        }
+        .hizmet{
+            width: 250px;
+            margin-left: 80px;
+            padding:40px 20px;
+            border-radius: 15px;
+            box-shadow: -2px 2px 39px 0px rgba(0,0,0,0.29);
+            -webkit-box-shadow: -2px 2px 39px 0px rgba(0,0,0,0.29);
+            -moz-box-shadow: -2px 2px 39px 0px rgba(0,0,0,0.29);
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        .hizmet h3{
+            margin:15px 0;
+        }
+        .hizmet img{
+            width: 200px;
+            height: 100px;
+        }
+        .son{
+          width: 100%;
+          height:600px;
+          text-align: center;
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(gece.jpg);
+          background-size: cover;
+          background-attachment: fixed;
+        text-align: center;
+        padding:20px 0;
+        }
+        .son h1{
+          color:#fff;
+          font-size:42px;
+          margin-top:10px;
+          margin-bottom:50px;
+        }
+        #iletisim{
+          width:40%;
+          margin:0 auto;
+        }
+        .txt{
+          text-shadow: 4px 4px 2px rgba(0,0,0,0.31);
+        }
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" style="font-size:32px;">Ice Shapers</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Ana Sayfa <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Yenilikler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ücretlendirme</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pist Çeşitleri
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Sentetik</a>
+                    <a class="dropdown-item" href="#">Doğal</a>
+                    <a class="dropdown-item" href="#">Kapalı</a>
+                    <a class="dropdown-item" href="#">Açık</a>
+                    <a class="dropdown-item" href="#">Yarı Açık</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#iletisim">İletişim</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="carouselboy">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 carouselboy" src="989628-patinoire-ucpa-meudon.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="txt">TÜM BUZ SPORLARI İÇİN EKSİKSİZ PİSTLER</h1>
+                    <p></p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 carouselboy" src="pexels-tima-miroshnichenko-6015656-scaled.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="txt">PİSTLERİMİZDE SORUNSUZ EĞİTİMLER</h1>
+                    <p></p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 carouselboy" src="amsterdam-buz-pisti.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="txt">DOSTÇA VE AİLECE EŞSİZ BİR PATEN DENEYİMİ</h1>
+                    <p></p>
+                  </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="icerik">
+            <h1>HİZMETLER</h1>
+            <div class="hizmetler">
+                <div class="hizmet">
+                    <img src="1_wJk2PB41DD5zU1kn1P8uUw.jpg" alt=""><br>
+                    <h3>Sentetik Buz Pisti</h3>
+                    <p>Sentetik buz pistleri yüksek yoğunluklu özel bir polimer malzemeden imal edilmektedir. Her türlü iklim koşullarında ve hava şartlarında kullanılan sentetik buz pistlerinin enerji maliyeti yoktur.</p>
+                </div>
+                <div class="hizmet">
+                    <img src="kagithane-buz-pisti-.jpg" alt=""><br>
+                    <h3>Doğal Buz Pisti</h3>
+                    <p>Doğal buz pistleri soğutma grubu, zemin serpantin boruları ve sirkülasyon sistemi sayesinde suyun dondurulması sonucunda oluşturulan buz pistleridir.Sabit ve mobil olarak imal edilir.</p>
+                </div>
+                <div class="hizmet">
+                    <img src="indir.jpeg" alt=""><br>
+                    <h3>Olimpik Buz Pisti</h3>
+                    <p>Olimpik buz pistleri uluslararası standartlara sahip buz hokeyi, artistik buz pateni şampiyonalarının yapılabildği ve tüm detayları ilgili kurumlarca belirlenen pistlerdir. Ortalama büyüklükleri 1200 m2 ile 1800 m2 arasında değişmektedir.</p>
+                </div>
+                <div class="hizmet">
+                    <img src="indir (1).jpeg" alt=""><br>
+                    <h3>Kiralık Buz Pisti</h3>
+                    <p>Kiralık buz pistleri yılın her dönemi açık alan veya kapalı alan farketmeksizin sosyal projeler ve ticari amaçlar için tüm ekipmanları ile birlikte kurulan buz pistleridir.200 m2 ile 600 m2 arasında değişmektedir.</p>
+                </div>
+                <div class="hizmet">
+                    <img src="images.jpeg" alt=""><br>
+                    <h3>İkinci El Buz Pisti</h3>
+                    <p>Bakımları yapılmış, kaliteli ve daha az maliyetli ikinci el buz pistlerimizi tercih edebilirsiniz.İkinci el buz pistlerimizi anahtar teslilm tüm ekipmanları ile birlikte kuruluma hazır halde istediğiniz bölgeye kurmaktayız .</p>
+                </div>
+            </div>
+        </div>
+        <div class="son">
+            <h1>İletişim</h1>
+
+            <div id="iletisim">
+              <form action="#" method="post" onsubmit="return validate()">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" id="isim" placeholder="Adınız">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" id="soyisim" placeholder="Soyadınız">
+                  </div>
+                </div><br>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Adres">
+                </div><br>
+                <textarea class="form-control" id="" cols="30" rows="5"></textarea><br>
+              
+                <input type="submit" class="btn btn-primary">Gönder</button>
+              </form>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+ function validate(){
+           var el = document.getElementById("inputEmail4");
+            var regex = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+.)+([.])+[a-zAZ0-9.-]{2,4}$/;
+            if (regex.test($("#inputEmail4").val())==false){
+                alert("geçersiz mail adresi!");
+                return false;
+            }
+            if($("#isim").val().length<3 || $("#soyisim").val().length<3){
+                alert("geçersiz isim veya soyisim!");
+                return false;
+            }
+        };
+</script>
+</body>
+</html>
